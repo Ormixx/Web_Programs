@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары | GadgetStore</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <i class="bi-phone"></i> GadgetStore
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="bi-house"></i> Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="products.html"><i class="bi-basket3"></i> Товары</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="bi-people"></i> О нас</a>          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h1 class="mb-4 text-center">Наши товары</h1>
+        <div class="text-center mb-5">
+            <a href="products_table.html" class="btn btn-outline-primary">
+                Список товаров (таблица)
+            </a>
+        </div>
+
+        <div class="card shadow rounded my-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="assets/img/t1.jpg" class="product-image img-fluid" alt="iPhone 15 Pro">
+                    </div>
+                    <div class="col-md-10 d-flex flex-column">
+                        <div class="product-name">iPhone 15 Pro</div>
+                        <div class="product-description">Флагманский смартфон Apple с процессором A17 Pro, камерой 48 Мп и титановым корпусом. Поддержка USB-C и улучшенная автономность.</div>
+                        
+                        <div class="flex-grow-1"></div>
+
+                        <div class="d-flex justify-content-end align-items-center">
+                            <div class="product-price me-3">Цена: <strong>99 990 ₽</strong></div>
+                            <button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                                <i class="bi bi-cart"></i>
+                                <span class="d-none d-md-inline">В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow rounded my-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="assets/img/t2.jpg" class="product-image img-fluid" alt="Samsung Galaxy Watch 6">
+                    </div>
+                    <div class="col-md-10 d-flex flex-column">
+                        <div class="product-name">Samsung Galaxy Watch 6</div>
+                        <div class="product-description">Умные часы с расширенным мониторингом здоровья, дисплеем Super AMOLED и водонепроницаемостью 5ATM. Автономность до 40 часов.</div>
+                        
+                        <div class="flex-grow-1"></div>
+
+                        <div class="d-flex justify-content-end align-items-center">
+                            <div class="product-price me-3">Цена: <strong>29 990 ₽</strong></div>
+                            <button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                                <i class="bi bi-cart"></i>
+                                <span class="d-none d-md-inline">В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow rounded my-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="assets/img/t3.jpg" class="product-image img-fluid" alt="Apple AirPods Pro 2">
+                    </div>
+                    <div class="col-md-10 d-flex flex-column">
+                        <div class="product-name">Apple AirPods Pro 2</div>
+                        <div class="product-description">Беспроводные наушники с активным шумоподавлением, пространственным аудио и зарядкой от MagSafe. До 6 часов работы от одного заряда.</div>
+                        
+                        <div class="flex-grow-1"></div>
+
+                        <div class="d-flex justify-content-end align-items-center">
+                            <div class="product-price me-3">Цена: <strong>24 990 ₽</strong></div>
+                            <button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                                <i class="bi bi-cart"></i>
+                                <span class="d-none d-md-inline">В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow rounded my-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="assets/img/t4.jpg" class="product-image img-fluid" alt="Samsung Galaxy Tab S9">
+                    </div>
+                    <div class="col-md-10 d-flex flex-column">
+                        <div class="product-name">Samsung Galaxy Tab S9</div>
+                        <div class="product-description">Планшет с дисплеем Dynamic AMOLED 2X, процессором Snapdragon 8 Gen 2 и стилусом S Pen в комплекте. Идеален для работы и творчества.</div>
+                        
+                        <div class="flex-grow-1"></div>
+
+                        <div class="d-flex justify-content-end align-items-center">
+                            <div class="product-price me-3">Цена: <strong>79 990 ₽</strong></div>
+                            <button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                                <i class="bi bi-cart"></i>
+                                <span class="d-none d-md-inline">В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow rounded my-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="assets/img/t5.jpg" class="product-image img-fluid" alt="Xiaomi Mi Band 8">
+                    </div>
+                    <div class="col-md-10 d-flex flex-column">
+                        <div class="product-name">Xiaomi Mi Band 8</div>
+                        <div class="product-description">Фитнес-браслет с AMOLED-дисплеем, отслеживанием SpO2 и более чем 150 спортивными режимами. Автономность до 16 дней.</div>
+                        
+                        <div class="flex-grow-1"></div>
+
+                        <div class="d-flex justify-content-end align-items-center">
+                            <div class="product-price me-3">Цена: <strong>4 990 ₽</strong></div>
+                            <button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                                <i class="bi bi-cart"></i>
+                                <span class="d-none d-md-inline">В корзину</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-light text-center py-3">
+    </footer>
+</body>
+</html>
